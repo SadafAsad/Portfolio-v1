@@ -1,6 +1,8 @@
 
 export default function Home() {
   return (
+    <div className="flex flex-col">
+
     <div className="flex flex-row justify-around h-screen bg-gray-900 p-20">
       {/* Left Side */}
       <div className="w-1/2 flex flex-col justify-between ml-5 p-5">
@@ -23,7 +25,7 @@ export default function Home() {
             <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16  group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
             <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Experience</span>
           </a>
-          <a href="#about" className="group flex items-center py-2 active">
+          <a href="#projects" className="group flex items-center py-2 active">
             <span className="nav-indicator mr-4 h-px w-8 bg-slate-600 transition-all group-hover:w-16  group-hover:bg-slate-200 group-focus-visible:w-16 group-focus-visible:bg-slate-200 motion-reduce:transition-none"></span>
             <span className="nav-text text-xs font-bold uppercase tracking-widest text-slate-500 group-hover:text-slate-200 group-focus-visible:text-slate-200">Projects</span>
           </a>
@@ -165,6 +167,13 @@ export default function Home() {
           </div>
         </section>
       </div>
+    </div>
+
+    <div>
+      <section id="projects">
+        Projects
+      </section>
+    </div>
     </div>
   )
 }
