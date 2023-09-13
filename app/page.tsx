@@ -3,7 +3,7 @@ export default function Home() {
   return (
     <div className="flex flex-row justify-around h-screen bg-gray-900 p-20">
       {/* Left Side */}
-      <div className="w-1/2 flex flex-col justify-between">
+      <div className="w-1/2 flex flex-col justify-between ml-5 p-5">
         <div className="space-y-3">
           <h1 className="font-bold text-4xl tracking-wide text-slate-200 sm:text-5xl">Sadaf Asadollahi</h1>
           <h2 className="font-medium text-lg text-slate-200 sm:text-xl">Software Developer</h2>
@@ -26,7 +26,7 @@ export default function Home() {
       </div>
 
       {/* Right Side */}
-      <div className="w-1/2 flex-col space-y-20 overflow-auto">
+      <div className="w-1/2 flex-col space-y-20 overflow-auto mr-5 p-5">
 
         {/* About */}
         <div className="font-thin text-base space-y-4">
@@ -45,10 +45,10 @@ export default function Home() {
               <div className="sm:col-span-6">
                 <h3 className="font-medium leading-snug text-slate-200">
                   <p className="font-medium leading-tight text-slate-200">Cyber Security · Postgraduate</p>
-                  <p className="text-slate-500">George Brown College · Canada</p>
+                  <p className="text-slate-500 text-sm mt-1">George Brown College · Canada</p>
                 </h3>
               </div>
-              <p className="text-sm leading-normal font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet enim tortor at auctor urna nunc id. Eu lobortis elementum nibh tellus molestie nunc. Sagittis orci a scelerisque purus semper eget duis. Malesuada fames ac turpis egestas sed tempus. Et tortor at risus viverra adipiscing at in. Non consectetur a erat nam at lectus urna duis convallis. Ornare lectus sit amet est. Vivamus arcu felis bibendum ut tristique et egestas quis. Cursus in hac habitasse platea dictumst quisque. Tortor posuere ac ut consequat semper.</p>
+              <p className="text-sm leading-normal font-thin mt-3">Established a solid footing in network security, cryptography, incident response, ethical hacking, and compliance, while possessing technical proficiency and a deep grasp of cybersecurity principles.</p>
             </div>
           </div>
 
@@ -60,10 +60,10 @@ export default function Home() {
               <div className="sm:col-span-6">
                 <h3 className="font-medium leading-snug text-slate-200">
                   <p className="font-medium leading-tight text-slate-200">Mobile Application Development and Strategy · Postgraduate</p>
-                  <p className="text-slate-500">George Brown College · Canada</p>
+                  <p className="text-slate-500 text-sm mt-1">George Brown College · Canada</p>
                 </h3>
               </div>
-              <p className="text-sm leading-normal font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet enim tortor at auctor urna nunc id. Eu lobortis elementum nibh tellus molestie nunc. Sagittis orci a scelerisque purus semper eget duis. Malesuada fames ac turpis egestas sed tempus. Et tortor at risus viverra adipiscing at in. Non consectetur a erat nam at lectus urna duis convallis. Ornare lectus sit amet est. Vivamus arcu felis bibendum ut tristique et egestas quis. Cursus in hac habitasse platea dictumst quisque. Tortor posuere ac ut consequat semper.</p>
+              <p className="text-sm leading-normal font-thin mt-3">Proficient in both Java and Swift, enabling me to craft applications for iOS and Android platforms. Cultivated expertise in React Native for seamless cross-platform development and possess a solid grasp of architectural design patterns, ensuring the creation of robust and versatile applications.</p>
             </div>
           </div>
 
@@ -75,10 +75,10 @@ export default function Home() {
               <div className="sm:col-span-6">
                 <h3 className="font-medium leading-snug text-slate-200">
                   <p className="font-medium leading-tight text-slate-200">Computer Science and Engineering · Bachelor</p>
-                  <p className="text-slate-500">Shiraz University · Iran</p>
+                  <p className="text-slate-500 text-sm mt-1">Shiraz University · Iran</p>
                 </h3>
               </div>
-              <p className="text-sm leading-normal font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet enim tortor at auctor urna nunc id. Eu lobortis elementum nibh tellus molestie nunc. Sagittis orci a scelerisque purus semper eget duis. Malesuada fames ac turpis egestas sed tempus. Et tortor at risus viverra adipiscing at in. Non consectetur a erat nam at lectus urna duis convallis. Ornare lectus sit amet est. Vivamus arcu felis bibendum ut tristique et egestas quis. Cursus in hac habitasse platea dictumst quisque. Tortor posuere ac ut consequat semper.</p>
+              <p className="text-sm leading-normal font-thin mt-3">Equiped me with Object-Oriented Programming, RDBMS, Data Structures, and Algorithms, allowing me to design and build robust, efficient software solutions. Additionally, honed my skills in a wide array of essential software development areas, including multi-language proficiency and version control.</p>
             </div>
           </div>
         </div>
@@ -87,16 +87,16 @@ export default function Home() {
         <div className="space-y-5">
           <div className="flex flex-row text-base font-thin">
               <div className="w-1/4">
-                <header className="text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2">Dec 2022 –– Present</header>
+                <header className="text-xs font-semibold uppercase tracking-wide text-slate-500 sm:col-span-2 pr-5">Dec 2022 –– Present</header>
               </div>
               <div className="w-3/4 flex flex-col">
                 <div className="sm:col-span-6">
                   <h3 className="font-medium leading-snug text-slate-200">
                     <p className="font-medium leading-tight text-slate-200">Project Contoller Assistant</p>
-                    <p className="text-slate-500">WEIR Company · Mississauga</p>
+                    <p className="text-slate-500 text-sm mt-1">WEIR Company · Mississauga</p>
                   </h3>
                 </div>
-                <p className="text-sm leading-normal font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet enim tortor at auctor urna nunc id. Eu lobortis elementum nibh tellus molestie nunc. Sagittis orci a scelerisque purus semper eget duis. Malesuada fames ac turpis egestas sed tempus. Et tortor at risus viverra adipiscing at in. Non consectetur a erat nam at lectus urna duis convallis. Ornare lectus sit amet est. Vivamus arcu felis bibendum ut tristique et egestas quis. Cursus in hac habitasse platea dictumst quisque. Tortor posuere ac ut consequat semper.</p>
+                <p className="text-sm leading-normal font-thin mt-3">Contributed to project management by attending regular progress meetings, meeting deadlines, and providing detailed weekly client updates. Additionally, utilized analytical skills to create predictive S-curve graphs for project performance assessment.</p>
               </div>
           </div>
 
@@ -108,10 +108,10 @@ export default function Home() {
                 <div className="sm:col-span-6">
                   <h3 className="font-medium leading-snug text-slate-200">
                     <p className="font-medium leading-tight text-slate-200">Student Success Program Administrative Coordinator</p>
-                    <p className="text-slate-500">George Brown College · Toronto</p>
+                    <p className="text-slate-500 text-sm mt-1">George Brown College · Toronto</p>
                   </h3>
                 </div>
-                <p className="text-sm leading-normal font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet enim tortor at auctor urna nunc id. Eu lobortis elementum nibh tellus molestie nunc. Sagittis orci a scelerisque purus semper eget duis. Malesuada fames ac turpis egestas sed tempus. Et tortor at risus viverra adipiscing at in. Non consectetur a erat nam at lectus urna duis convallis. Ornare lectus sit amet est. Vivamus arcu felis bibendum ut tristique et egestas quis. Cursus in hac habitasse platea dictumst quisque. Tortor posuere ac ut consequat semper.</p>
+                <p className="text-sm leading-normal font-thin mt-3">Crafted and led academic workshops, conducted effective meetings, and collaborated with coaches to improve student engagement and success strategies, highlighting my instructional, communication, and teamwork skills.</p>
               </div>
           </div>
 
@@ -123,10 +123,10 @@ export default function Home() {
                 <div className="sm:col-span-6">
                   <h3 className="font-medium leading-snug text-slate-200">
                     <p className="font-medium leading-tight text-slate-200">Student Success Coach</p>
-                    <p className="text-slate-500">George Brown College · Toronto</p>
+                    <p className="text-slate-500 text-sm mt-1">George Brown College · Toronto</p>
                   </h3>
                 </div>
-                <p className="text-sm leading-normal font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet enim tortor at auctor urna nunc id. Eu lobortis elementum nibh tellus molestie nunc. Sagittis orci a scelerisque purus semper eget duis. Malesuada fames ac turpis egestas sed tempus. Et tortor at risus viverra adipiscing at in. Non consectetur a erat nam at lectus urna duis convallis. Ornare lectus sit amet est. Vivamus arcu felis bibendum ut tristique et egestas quis. Cursus in hac habitasse platea dictumst quisque. Tortor posuere ac ut consequat semper.</p>
+                <p className="text-sm leading-normal font-thin mt-3">Utilized problem-solving skills to collaborate with faculty in academic support, fostering interactive learning through workshop proposals and materials, and delivered personalized coaching.</p>
               </div>
           </div>
 
@@ -138,10 +138,10 @@ export default function Home() {
                 <div className="sm:col-span-6">
                   <h3 className="font-medium leading-snug text-slate-200">
                     <p className="font-medium leading-tight text-slate-200">Teaching Assistant</p>
-                    <p className="text-slate-500">Shiraz University · Iran</p>
+                    <p className="text-slate-500 text-sm mt-1">Shiraz University · Iran</p>
                   </h3>
                 </div>
-                <p className="text-sm leading-normal font-thin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nulla aliquet enim tortor at auctor urna nunc id. Eu lobortis elementum nibh tellus molestie nunc. Sagittis orci a scelerisque purus semper eget duis. Malesuada fames ac turpis egestas sed tempus. Et tortor at risus viverra adipiscing at in. Non consectetur a erat nam at lectus urna duis convallis. Ornare lectus sit amet est. Vivamus arcu felis bibendum ut tristique et egestas quis. Cursus in hac habitasse platea dictumst quisque. Tortor posuere ac ut consequat semper.</p>
+                <p className="text-sm leading-normal font-thin mt-3">Assisted students in mastering programming fundamentals, reinforcing problem-solving skills through tests and exercises. Also, provided timely and professional responses to student inquiries, demonstrating communication and technical proficiency in programming concepts.</p>
               </div>
           </div>
         </div>
