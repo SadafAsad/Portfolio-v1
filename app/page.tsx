@@ -1,7 +1,7 @@
 
 export default function Home() {
   return (
-    <div className="flex flex-row justify-around h-screen bg-green-5 p-20">
+    <div className="flex flex-row justify-around h-screen bg-gray-900 p-20">
       {/* Left Side */}
       <div className="w-1/2 flex flex-col justify-between">
         <div className="space-y-3">
